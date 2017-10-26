@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`component/common/loader/index.jsx should render component with wrapper and content sections 1`] = `
+<styled(Component)>
+  <WithTheme(styled(Component)) />
+</styled(Component)>
+`;
+
+exports[`features/user-settings/index.jsx should render component with user and admin sections 1`] = `
+<styled(Component)>
+  <WithTheme(styled(Component)) />
+</styled(Component)>
+`;

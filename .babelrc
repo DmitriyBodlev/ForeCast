@@ -1,0 +1,26 @@
+{
+  "presets": [
+    ["es2015", { "modules": false }],
+    "stage-0",
+    "react"
+  ],
+  "plugins": [
+    "transform-es2015-arrow-functions",
+    "transform-decorators-legacy",
+    "react-hot-loader/babel",
+    "emotion"
+  ],
+  "env": {
+    "test": {
+      "plugins": [
+        "transform-es2015-modules-commonjs",
+        "emotion"
+      ],
+      "presets": [
+        ["es2015", { "modules": false }],
+        "stage-0",
+        "react"
+      ]
+    }
+  }
+}

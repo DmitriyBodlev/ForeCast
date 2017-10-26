@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`source/main-layouts.jsx should render component with header and modal 1`] = `
+<styled(Component)>
+  <Connect(HeaderComponent) />
+  <Connect(withHandlers(Connect(branch(pure(SidebarComponent))))) />
+  <Connect(withHandlers(Connect(branch(pure(NavComponent))))) />
+  <Connect(ModalComponent)
+    params={
+      Object {
+        "isOpened": true,
+      }
+    }
+  />
+</styled(Component)>
+`;

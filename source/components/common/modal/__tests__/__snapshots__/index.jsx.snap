@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`source/components/common/modal footer component should render footer component 1`] = `
+<styled(Component)>
+  <button
+    className="primary"
+    key="0"
+    onClick={[Function]}
+  >
+    Save
+  </button>
+  <button
+    onClick={[Function]}
+  >
+    Cansel
+  </button>
+</styled(Component)>
+`;
+
+exports[`source/components/common/modal header component should render header component 1`] = `
+<WithTheme(styled(Component))>
+  <styled(Component)>
+    Test
+  </styled(Component)>
+  <a
+    onClick={[Function]}
+  >
+    <Connect(LabelComponent)
+      endLabel="shape"
+    />
+  </a>
+</WithTheme(styled(Component))>
+`;
+
+exports[`source/components/common/modal modal component should render component 1`] = `
+<styled(Component)>
+  <WithTheme(styled(Component))
+    className="css-m5r4ys"
+    params={
+      Object {
+        "controlButtons": Array [],
+        "position": "top-right",
+        "title": "text",
+      }
+    }
+  >
+    <HeaderComponent
+      closeAction={[Function]}
+      title="text"
+    />
+    <div>
+      some text
+    </div>
+  </WithTheme(styled(Component))>
+</styled(Component)>
+`;
+
+exports[`source/components/common/modal modal component should render component with control button 1`] = `
+<styled(Component)>
+  <WithTheme(styled(Component))
+    className="css-1qhj9c7"
+    params={
+      Object {
+        "controlButtons": Array [
+          Object {
+            "action": [Function],
+            "name": "Save",
+            "type": "primary",
+          },
+        ],
+        "height": 400,
+        "position": "top-left",
+        "width": 600,
+      }
+    }
+  >
+    <HeaderComponent
+      closeAction={[Function]}
+    />
+    <div>
+      some text
+    </div>
+    <FooterComponent
+      buttons={
+        Array [
+          Object {
+            "action": [Function],
+            "name": "Save",
+            "type": "primary",
+          },
+        ]
+      }
+      closeAction={[Function]}
+    />
+  </WithTheme(styled(Component))>
+</styled(Component)>
+`;

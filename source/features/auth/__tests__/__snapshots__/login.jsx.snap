@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`features/auth/login should handle submit form 1`] = `
+<styled(Component)>
+  <styled(Component)>
+    <styled(Component)>
+      <img
+        alt="Logo"
+        src="https://static.wixstatic.com/media/c55a42_78b53de3385f4c32baacc030ddaad4b5~mv2_d_2000_1500_s_2.png/v1/fill/w_361,h_196,al_c,usm_0.66_1.00_0.01/c55a42_78b53de3385f4c32baacc030ddaad4b5~mv2_d_2000_1500_s_2.png"
+      />
+    </styled(Component)>
+    <styled(Component)>
+      <Field
+        component={[Function]}
+        errorFontSize={14}
+        errorMargin="0 0 5px 0"
+        label="Login Id:"
+        labelFontSize={14}
+        labelMargin="5px 0 5px 0"
+        name="username"
+        type="text"
+        validate={[Function]}
+        width={1}
+      />
+      <Field
+        component={[Function]}
+        errorFontSize={14}
+        errorMargin="0 0 5px 0"
+        label="Password:"
+        labelFontSize={14}
+        labelMargin="5px 0 5px 0"
+        name="password"
+        type="password"
+        validate={[Function]}
+        width={1}
+      />
+      <Field
+        component={[Function]}
+        label="Remember me"
+        margin="0 5px 0 0"
+        name="remember"
+        type="checkbox"
+      />
+      <WithTheme(styled(Component))
+        disabled={true}
+        fontSize={16}
+        p="8px 16px"
+        type="submit"
+      >
+        Sign In
+      </WithTheme(styled(Component))>
+      <styled(Link)
+        to="reset_password"
+      >
+        Forgot Password?
+      </styled(Link)>
+    </styled(Component)>
+  </styled(Component)>
+</styled(Component)>
+`;
+
+exports[`features/auth/login should render Redirect component 1`] = `
+<Redirect
+  push={false}
+  to="/"
+/>
+`;
+
+exports[`features/auth/login should render alert component 1`] = `
+<Redirect
+  push={false}
+  to="/"
+/>
+`;
+
+exports[`features/auth/login should render login form 1`] = `
+<Redirect
+  push={false}
+  to="/"
+/>
+`;

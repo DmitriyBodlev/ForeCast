@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`source/app.jsx should render component with routes 1`] = `
+<div>
+  <RouteWithSubRoutes
+    component={[Function]}
+    key="0"
+    path="/login"
+  />
+  <RouteWithSubRoutes
+    component={[Function]}
+    key="1"
+    path="/reset_password"
+  />
+  <RouteWithSubRoutes
+    component={[Function]}
+    key="2"
+    path="/new_password"
+  />
+  <RouteWithSubRoutes
+    exact={true}
+    key="3"
+    path="/"
+    routes={
+      Array [
+        Object {
+          "component": [Function],
+          "path": "/",
+        },
+        Object {
+          "component": [Function],
+          "path": "/users/:guid/settings",
+        },
+        Object {
+          "component": [Function],
+          "path": "/users/list",
+        },
+        Object {
+          "component": [Function],
+          "path": "/users/new",
+        },
+        Object {
+          "component": [Function],
+          "path": "/enterprises/new",
+        },
+        Object {
+          "component": [Function],
+          "path": "/enterprises/list",
+        },
+        Object {
+          "component": [Function],
+          "path": "/enterprises/details/:guid",
+        },
+        Object {
+          "component": [Function],
+          "path": "/enterprises/:guid/edit",
+        },
+      ]
+    }
+  />
+</div>
+`;

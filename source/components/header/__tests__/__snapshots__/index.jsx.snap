@@ -1,0 +1,179 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`source/components/Header should render component without props 1`] = `
+<WithTheme(styled(Component))>
+  <div
+    className="css-hhqhwg"
+  >
+    <span
+      className="css-1c7eag5"
+    >
+      <span
+        className="css-16qe564"
+      />
+      <styled(Component)
+        alt="logo"
+        src="https://s3.amazonaws.com/amous-front-dev/logo/undefined-logo.svg"
+      />
+    </span>
+    <span
+      className="css-w4oq7f"
+    />
+    <span
+      className="css-fp0wmq"
+    >
+      <withState(defaultProps(withHandlers(DropDownComponent)))
+        frontLabel="structure"
+        name="Company"
+        position="center"
+      >
+        <Connect(Enterprise)
+          locale={
+            Object {
+              "btns:text:cancel": "Cancel",
+              "btns:text:create-enterprise": "Create Enterprise",
+              "btns:text:save": "Save",
+              "btns:text:update-enterprise": "Update Enterprise",
+              "components:common:header:company": "Company",
+              "components:common:header:logout": "Logout",
+              "components:common:header:settings": "My Settings",
+              "components:common:header:version": "Version",
+              "features:auth:btn:reset": "RESET MY PASSWORD",
+              "features:auth:btn:send": "SEND NEW PASSWORD",
+              "features:auth:btn:sign-in": "LOG IN",
+              "features:auth:email": "Email",
+              "features:auth:links:forgot": "Forgot your password?",
+              "features:auth:links:login": "Login",
+              "features:auth:login-id": "Login Id:",
+              "features:auth:password": "Password",
+              "features:auth:password-new": "New password",
+              "features:auth:password-old": "Old password",
+              "features:auth:remember": "Keep me signed in",
+              "features:auth:subtitles:new-password": "Reset your password here",
+              "features:auth:subtitles:reset": "No problem. Enter your email here and we\`ll send you a link to reset it.",
+              "features:auth:titles:login": "Log into your Amous International account",
+              "features:auth:titles:new": "New Password",
+              "features:auth:titles:reset": "Reset Password",
+              "features:auth:username": "Username",
+              "features:enterprise:create-form:active": "Active",
+              "features:enterprise:create-form:address-1": "Address 1",
+              "features:enterprise:create-form:address-2": "Address 2",
+              "features:enterprise:create-form:carrier-invoice": "Carrier Invoice POD Required",
+              "features:enterprise:create-form:cash-only": "Cash Only",
+              "features:enterprise:create-form:child-of": "Child Of",
+              "features:enterprise:create-form:city": "City",
+              "features:enterprise:create-form:comments": "Comments",
+              "features:enterprise:create-form:contact-email": "Contact Email",
+              "features:enterprise:create-form:contact-fax": "Contact Fax",
+              "features:enterprise:create-form:contact-name": "Contact Name",
+              "features:enterprise:create-form:contact-phone": "Contact Phone",
+              "features:enterprise:create-form:country": "Country",
+              "features:enterprise:create-form:credit-limit": "Credit Limit",
+              "features:enterprise:create-form:credit-limit-eff-date": "Credit Limit Effective Date",
+              "features:enterprise:create-form:credit-section": "Credit Details",
+              "features:enterprise:create-form:currency": "Currency",
+              "features:enterprise:create-form:customer-acct-number": "Customer Acct Number",
+              "features:enterprise:create-form:customer-invoice": "Customer Invoice POD Required",
+              "features:enterprise:create-form:description": "Description",
+              "features:enterprise:create-form:details-section": "Company Details",
+              "features:enterprise:create-form:display-notes": "Display Notes",
+              "features:enterprise:create-form:duns-number": "D-U-N-S Number",
+              "features:enterprise:create-form:federal-ein": "Federal EIN",
+              "features:enterprise:create-form:header": "Create New Enterprise",
+              "features:enterprise:create-form:internal-type": "Internal Type",
+              "features:enterprise:create-form:location-code": "Location Code",
+              "features:enterprise:create-form:location-name": "Location Name",
+              "features:enterprise:create-form:location-type": "Location Type",
+              "features:enterprise:create-form:multinational": "Multinational",
+              "features:enterprise:create-form:name": "Name",
+              "features:enterprise:create-form:postal-code": "Postal Code",
+              "features:enterprise:create-form:primary-section": "Primary Location",
+              "features:enterprise:create-form:primary-sic": "Primary SIC",
+              "features:enterprise:create-form:ranking": "Ranking",
+              "features:enterprise:create-form:residential": "Residential",
+              "features:enterprise:create-form:state": "State",
+              "features:enterprise:create-form:type": "Type",
+              "features:enterprise:create-form:vis-addship-quote": "Visibility: Add Shipment and Quote screens",
+              "features:enterprise:create-form:vis-login-grant": "Visibility: Login and Grant screens",
+              "features:enterprise:edit-form:header": "Edit Enterprise: ",
+              "features:enterprise:enterprise-list:actions": "Actions",
+              "features:enterprise:enterprise-list:description": "Description",
+              "features:enterprise:enterprise-list:name": "Name",
+              "features:enterprise:enterprise-tree:search": "Search",
+              "features:enterprise:link:browse-all": "Browse all...",
+              "features:enterprise:modal:title": "Company Hierarchy",
+              "features:user-settings:admin": "Admin settings",
+              "features:user-settings:alternateCurrency": "Alternate Currency",
+              "features:user-settings:dateFormat": "Date Format",
+              "features:user-settings:decimalSeparator": "Decimal Separator",
+              "features:user-settings:email": "Email",
+              "features:user-settings:faxNumber": "Fax Number",
+              "features:user-settings:firstName": "First Name",
+              "features:user-settings:forceUserToChangePassword": "Force User To Change Password",
+              "features:user-settings:isAdministrator": "Is Administrator",
+              "features:user-settings:lastName": "Last Name",
+              "features:user-settings:listScreenMaxResults": "List Screen Max Results",
+              "features:user-settings:listScreenPageSize": "List Screen Page Size",
+              "features:user-settings:main": "User settings",
+              "features:user-settings:navigateHierarchy": "Navigate Hierarchy",
+              "features:user-settings:password": "Password",
+              "features:user-settings:password-confirm": "Confirm Password",
+              "features:user-settings:phoneNumber": "Phone Number",
+              "features:user-settings:showFilterOnListScreens": "Show Filter On List Screens",
+              "features:user-settings:showInactiveCompanyData": "Show Inactive Company Data",
+              "features:user-settings:smsEmail": "SMS Email",
+              "features:user-settings:theme": "Theme",
+              "features:user-settings:toastr:create:success": "The user was created successfully",
+              "features:user-settings:toastr:remove:success": "The user was removed successfully",
+              "features:user-settings:toastr:update:success": "The settings were updated successfully",
+              "features:user-settings:user-id": "User ID",
+              "features:users:list:actions": "Actions",
+              "features:users:list:all": "All",
+              "features:users:list:email": "Email",
+              "features:users:list:first-name": "First Name",
+              "features:users:list:last-name": "Last Name",
+              "features:users:list:links:new": "Create user",
+              "features:users:list:owner": "Owner",
+              "features:users:list:roles": "Roles",
+              "features:users:list:user-id": "User ID",
+              "toastr:error:change-locale": "Sorry, some error with locales. Please, try again or reload your browser and try",
+              "toastr:error:initial-data-loading:fail": "Some error. Initial dala loading fail. Please, reload your browser",
+              "toastr:error:server": "Sorry, some server error. Please, try again or reload your browser and try",
+              "toastr:error:unknown": "Sorry, some error. Please, try again or reload your browser and try",
+              "toastr:success:forgot:psw": "Please, check your email",
+              "toastr:success:reset:psw": "Please, try to login",
+            }
+          }
+        />
+      </withState(defaultProps(withHandlers(DropDownComponent)))>
+      <WithTheme(styled(Component)) />
+      <withState(defaultProps(withHandlers(DropDownComponent)))
+        endLabel="down-arrow"
+        frontLabel="user-avatar"
+        options={
+          Array [
+            Object {
+              "action": undefined,
+              "endLabel": "",
+              "frontLabel": "settings",
+              "params": undefined,
+              "text": "My Settings",
+            },
+            Object {
+              "endLabel": "",
+              "frontLabel": "info",
+              "text": "Version",
+            },
+            Object {
+              "action": undefined,
+              "frontLabel": "logout",
+              "text": "Logout",
+            },
+          ]
+        }
+        position="right"
+      />
+    </span>
+  </div>
+</WithTheme(styled(Component))>
+`;

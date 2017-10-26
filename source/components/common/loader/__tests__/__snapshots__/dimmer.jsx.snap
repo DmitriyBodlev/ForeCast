@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`component/common/loader/dimmer.jsx should render component with user and admin sections 1`] = `
+<WithTheme(styled(Component))>
+  <WithTheme(styled(Component)) />
+  <WithTheme(styled(Component)) />
+  <WithTheme(styled(Component))>
+    <WithTheme(styled(Component)) />
+    <WithTheme(styled(Component)) />
+    <WithTheme(styled(Component)) />
+    <WithTheme(styled(Component)) />
+  </WithTheme(styled(Component))>
+  <WithTheme(styled(Component))>
+    <WithTheme(styled(Component)) />
+    <WithTheme(styled(Component)) />
+    <WithTheme(styled(Component)) />
+    <WithTheme(styled(Component)) />
+  </WithTheme(styled(Component))>
+</WithTheme(styled(Component))>
+`;
+
+exports[`component/common/loader/dimmer.jsx should render component with wrapper and content sections 1`] = `
+<WithTheme(styled(Component))>
+  <WithTheme(styled(Component)) />
+  <WithTheme(styled(Component)) />
+</WithTheme(styled(Component))>
+`;
+
+exports[`component/common/loader/dimmer.jsx should render component with wrapper and title sections 1`] = `
+<WithTheme(styled(Component))>
+  <WithTheme(styled(Component)) />
+  <WithTheme(styled(Component)) />
+</WithTheme(styled(Component))>
+`;
+
+exports[`component/common/loader/dimmer.jsx should render component with wrapper, title and table sections 1`] = `
+<WithTheme(styled(Component))>
+  <WithTheme(styled(Component)) />
+  <WithTheme(styled(Component)) />
+  <WithTheme(styled(Component))>
+    <WithTheme(styled(Component)) />
+    <WithTheme(styled(Component)) />
+    <WithTheme(styled(Component)) />
+    <WithTheme(styled(Component)) />
+  </WithTheme(styled(Component))>
+  <WithTheme(styled(Component))>
+    <WithTheme(styled(Component)) />
+    <WithTheme(styled(Component)) />
+    <WithTheme(styled(Component)) />
+    <WithTheme(styled(Component)) />
+  </WithTheme(styled(Component))>
+</WithTheme(styled(Component))>
+`;
+
+exports[`features/user-settings/index.jsx should render componecnt with user and admin sections 1`] = `
+<WithTheme(styled(Component))>
+  <WithTheme(styled(Component)) />
+  <WithTheme(styled(Component)) />
+</WithTheme(styled(Component))>
+`;
+
+exports[`features/user-settings/index.jsx should render component with user and admin sections 1`] = `
+<WithTheme(styled(Component))>
+  <WithTheme(styled(Component)) />
+  <WithTheme(styled(Component)) />
+  <WithTheme(styled(Component))>
+    <WithTheme(styled(Component)) />
+    <WithTheme(styled(Component)) />
+    <WithTheme(styled(Component)) />
+    <WithTheme(styled(Component)) />
+  </WithTheme(styled(Component))>
+  <WithTheme(styled(Component))>
+    <WithTheme(styled(Component)) />
+    <WithTheme(styled(Component)) />
+    <WithTheme(styled(Component)) />
+    <WithTheme(styled(Component)) />
+  </WithTheme(styled(Component))>
+</WithTheme(styled(Component))>
+`;

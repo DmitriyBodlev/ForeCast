@@ -1,0 +1,31 @@
+export default {
+  white: '#ffffff',
+  black: '#000000',
+  lightGrey: '#dddddd',
+  darkGrey: '#666666',
+
+  light: {
+    mainRed: '#ce2828',
+    mainLight: '#ffffff',
+    mainDark: '#868686',
+    lightRed: '#ff0000',
+    darkRed: '#930000',
+    lightGrey: '#f3f3f3',
+    darkGrey: '#b1b1b1',
+    black: '#353535',
+    green: '#1d9206',
+    blue: '#2073a1',
+  },
+  dark: {
+    mainRed: '#ce2828',
+    mainLight: '#f3f3f3',
+    mainDark: '#353535',
+    lightGrey: '#d8d8d8',
+    darkGrey: '#afafaf',
+    lightBlack: '#515151',
+    darkBlack: '#272727',
+    blue: '#0e5d8a',
+    green: '#42ce28',
+    red: '#ff0000',
+  },
+};
